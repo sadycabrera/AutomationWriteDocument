@@ -13,13 +13,13 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 					,plugin = {"pretty", "html:target/cucumber"})
 //SE ACTIVAS Test PARA EJECUTAR CON 
 //@Test
-@RunWith(Cucumber.class)
-public class RunTest {
-
-}
-
-
 //@RunWith(Cucumber.class)
-//public class RunTest extends AbstractTestNGCucumberTests{
+//public class RunTest {
 
 //}
+
+
+@RunWith(Cucumber.class)
+public class RunTest extends AbstractTestNGCucumberTests{
+
+}
